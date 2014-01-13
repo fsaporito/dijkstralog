@@ -17,12 +17,17 @@ dikstra.pl
 Contatins The API for the implementation in prolog of a graph.
 Every graph is defined by a set of facts saved in the prolog's
 database:
+
 graph(G) -> The graph named G
+
 vertex(G, V) -> The vertex V of the graph G
+
 arc(G, V, U, Weight) -> Arc between The Vertices V And U, With
 			NonNegative Weight
 
+
 The predicates implemented by the API are the following:
+
 new_graph(G)  ->  Instantiate the graph G in the prolog database.
 
 delete(G)  -> Remove the graph G and all of its vertices and arcs.
