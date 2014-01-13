@@ -1,5 +1,4 @@
 
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%  Graph Implementation  %%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -92,7 +91,7 @@ shortest_path(G, Source, V, Path) :- % Add Recursively All The Arcs
 %%%% Test File  %%%%
 %%%%%%%%%%%%%%%%%%%%
 
-%:- consult('test.pl').
+%:- consult('test.pro').
 
 
 
