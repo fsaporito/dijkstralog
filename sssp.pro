@@ -4,7 +4,7 @@
 %%%%  Graph Implementation  %%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-:- consult('graph.pl').
+:- consult('graph.pro').
 
 
 
@@ -13,7 +13,7 @@
 %%%%  MinHeap Implementation %%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-:- consult('min_heap.pl').
+:- consult('min_heap.pro').
 
 
 
@@ -22,7 +22,7 @@
 %%%%  Dijkstra's Algorithm Implementation %%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-:- consult('dijkstra.pl').
+:- consult('dijkstra.pro').
 
 
 
