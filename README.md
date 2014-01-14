@@ -5,14 +5,14 @@ Implementation in prolog of Dijkstra's algorithm for finding the shortest path i
 
 
 The main file is sssp.pl, which calls the various part of the program:
-graph.pl
-min_heap.pl
-dikstra.pl
+graph.pro
+min_heap.pro
+dikstra.pro
 
 
 
 
-****  graph.pl  ****
+****  graph.pro  ****
 
 Contatins The API for the implementation in prolog of a graph.
 Every graph is defined by a set of facts saved in the prolog's
@@ -60,7 +60,7 @@ list_grap(G)  ->  Output to the screen all of G's vertices and arcs.
 
 
 
-****  min_heap.pl  ****
+****  min_heap.pro  ****
 
 Implementation of a min_heap, used to find the minimum value in the
 Dijkstra's algorithm by extracting the root of the associated binary
@@ -166,7 +166,7 @@ modify_key(H, NewKey, oldKey, V) -> If OldKey = NewKey, Does Nothing.
 
 
 
-****  dijkstra.pl  ****
+****  dijkstra.pro  ****
 
 Implementation of the Dijkstra's algorithm for finding the shortest path
 between a vertex and all the others.
@@ -222,7 +222,7 @@ dijkstra(G, V, H) -> For every node in the vertex, calls
 
 
 
-**** ssp.pl  ****
+**** ssp.pro  ****
 
 Main file, wich loads the other parts (with consult), and contains the
 two major predicates of the program:
