@@ -11,6 +11,7 @@ dikstra.pro
 
 
 
+===
 
 ****  graph.pro  ****
 
@@ -59,6 +60,7 @@ list_grap(G)  ->  Output to the screen all of G's vertices and arcs.
 
 
 
+===
 
 ****  min_heap.pro  ****
 
@@ -165,6 +167,7 @@ modify_key(H, NewKey, oldKey, V) -> If OldKey = NewKey, Does Nothing.
 
 
 
+===
 
 ****  dijkstra.pro  ****
 
@@ -221,6 +224,7 @@ dijkstra(G, V, H) -> For every node in the vertex, calls
 
 
 
+===
 
 **** ssp.pro  ****
 
